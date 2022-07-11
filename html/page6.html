@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/page6.css">
+    <script src="https://kit.fontawesome.com/c09c3e0f2d.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="imagem/png" href="../images/celebrating.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Quizz Daltonismo</title>
+</head>
+<body>
+
+    <div id="heading">
+        <table>
+            <tr>
+                <th>
+                    <a href="../html/index.html"><i class="fa-solid fa-house fa-2x"></i></a>
+                </th>
+                <th>
+                    <h1 id="txt_heading"><strong>Rafinha Quizzes</strong></h1>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <img src="../images/congratulations.gif">
+
+    <div id="congratulations">
+        <h2>Parabéns!</h2>
+        <h3>Você acabou de concluir o quizz</h3>
+    </div>
+
+    <div id="points">
+        <h3 id="txt_points">Aqui está sua contagem total de pontos:</h3>
+        <h3 id="show_points"></h3>
+        <script>
+            const valor = window.localStorage.getItem("pontos");
+            const valor_legal = document.querySelector("#show_points");
+            valor_legal.innerHTML = valor;
+        </script>
+    </div>
+
+    <div id="table">
+        <h4 id="table_tit">Tabela de pontos<br></h4>
+        <h5 class="table_txt">0: Parabéns você é muito daltônico!</h5>
+        <h5 class="table_txt">1: Você	é daltônico em um nível menor</h5>
+        <h5 class="table_txt">2: Talvez você não seja daltônico</h5>
+        <h5 class="table_txt">3: Ou você é daltônico, ou muito desatento</h5>
+        <h5 class="table_txt">4: Ok, você é muito desatento</h5>
+        <h5 class="table_txt">5: Por que você fez esse quizz?</h5>
+        <h5 id="table_scrt">6+: Parabéns, você descobriu meu segredo!</h5>
+    </div>
+
+    <div id="back_button">
+        <a href="../html/page5.html" title="Voltar para pagina 5">
+            <i class="fa-solid fa-left-long fa-4x"></i>       
+        </a>
+    </div>
+
+    <div id="description">
+        <i class="fa-solid fa-face-smile-beam fa-2x" style="color: #e89ffc;"></i>
+        <h2 id="txt_description">Quizz do Daltonismo</h2>
+        <h6 id="copyright">© Rafaela Silva Ruis</h6>
+    </div>
+</body>
+</html>

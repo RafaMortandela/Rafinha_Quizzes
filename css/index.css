@@ -1,0 +1,180 @@
+body{
+    font-family: 'Acme', sans-serif;
+}
+
+.fa-house{
+    color: #e89ffc;
+}
+
+#heading{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+#txt_heading{
+    color: #ff0055;
+    text-align: center;
+}
+
+#copyright{
+    color: #ff0055;
+    text-align: center;
+}
+
+#description{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+#title{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#subtitle{
+    margin-bottom: 5%;
+    text-align: center;
+    border-style: dashed;
+    padding: 2%;
+    border-color: #e89ffc;
+    border-radius: 10%;
+}
+
+#button{
+    padding: 7%;
+    margin: 20%;
+    text-align: center;
+    background-color: black;
+    color: #ff0055;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: #e89ffc;
+    margin-bottom: 50%;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 399px){
+    #heading{
+        margin: -3%;
+        margin-bottom: 3%;
+    }
+    #description{
+        margin: -3%;
+    }
+    #copyright{
+        font-size: 100%;
+    }
+    #title{
+        font-size: 100%;
+    }
+    #subtitle{
+        font-size: 100%;
+    }
+    #button{
+        font-size: 120%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 449px){
+    #heading{
+        margin: -2%;
+        margin-bottom: 3%;
+    } 
+    #description{
+        margin: -2%;
+    }
+    #copyright{
+        font-size: 110%;
+    }
+    #title{
+        font-size: 120%;
+    }
+    #subtitle{
+        font-size: 120%;
+    }
+    #button{
+        font-size: 140%;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 549px){
+    #heading{
+        margin: -2%;
+        margin-bottom: 3%;
+    }
+    #description{
+        margin: -2%;
+    }
+    #copyright{
+        font-size: 120%;
+    }
+    #txt_heading{
+        font-size: 280%;
+    }
+    #title{
+        font-size: 140%;
+    }
+    #subtitle{
+        font-size: 140%;
+    }
+    #button{
+        font-size: 160%;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 649px){
+    #heading{
+        margin: -2%;
+        margin-bottom: 3%;
+    }
+    #description{
+        margin: -2%;
+    }
+    #copyright{
+        font-size: 140%;
+    }
+    #txt_heading{
+        font-size: 320%;
+    }
+    #title{
+        font-size: 160%;
+    }
+    #subtitle{
+        font-size: 160%;
+    }
+    #button{
+        font-size: 180%;
+    }
+}
+
+@media screen and (min-width: 650px){
+    #heading{
+        margin: -2%;
+        margin-bottom: 3%;
+    }
+    #description{
+        margin: -2%;
+    }
+    #copyright{
+        font-size: 160%;
+    }
+    #txt_heading{
+        font-size: 340%;
+    }
+    #title{
+        font-size: 180%;
+    }
+    #subtitle{
+        font-size: 180%;
+    }
+    #button{
+        font-size: 200%;
+    }
+}
